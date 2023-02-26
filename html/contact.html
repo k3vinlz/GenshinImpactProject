@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="../css/bootstrap.min.css">
+     <link rel="stylesheet" href="../master.css">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+     <title>Guía Genshin Impact</title>
+</head>
+<body class="bg-light">
+     <div class="container-fluid">
+          <div class="text-center" id="fondo">
+               <video id="bgvideo" autoplay muted loop src="../video/contactbg.mp4"></video>
+          </div>
+          <div class="row">
+               <nav id="navegate" class="nav nav-pills nav-fill navbar navbar-expand-lg navbar-dark bg-dark justify-content-center">
+                    <a class="navbar-brand" href="../index.html"><img class="logo" src="https://yankeebanchou.files.wordpress.com/2021/04/mihoyo_logo1.png"></a>
+                      <ul class="navbar-nav">
+                        <li class="nav-item">
+                          <a class="nav-link" aria-current="page" href="../index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                         <a class="nav-link" aria-current="page" href="elements.html">Elementos</a>
+                       </li>
+                        <li class="nav-item">
+                          <a class="nav-link active" href="#">Contacto</a>
+                        </li>
+                      </ul>
+               </nav>
+          </div>
+     <div class="row contacto">
+          <div class="col-sm-7 text-center" style="margin-top: 10%;" id="contitle">
+               <h1>Contacto</h1>
+               <h2>Contactame si tienes alguna duda acerca de este tema :D</h2>
+          </div>
+          <div class="col-sm-4" id="cont-parrafo">
+               <form class="text-center">
+                    <div class="form-floating mb-3">
+                         <input type="text" required class="form-control" id="floatingtext" placeholder="nombre">
+                         <label for="floatingtext">nombre completo</label>
+                       </div>
+                       <div class="input-group mb-3">
+                         <span class="input-group-text" style="font-size: 30px;" id="basic-addon1">@</span>
+                         <input type="text" class="form-control" style="height:60px" required placeholder="nombre de usuario" aria-label="Username" aria-describedby="basic-addon1">
+                       </div>
+                    <div class="form-floating mb-3">
+                         <input type="email" required class="email form-control text-black" id="floatingInput" placeholder="nombre@example.com">
+                         <label for="floatingInput">correo electronico</label>
+                       </div>
+                    <div class="form-floating mb-3">
+                         <textarea class="form-control" required style="resize: none; height: 100px;" placeholder="Que le preocupa?" id="floatingTextarea2"></textarea>
+                         <label for="floatingTextarea2">Asunto</label>
+                    </div>
+                    <div class="mb-3">
+                         <label for="formFileLg" class="text-white form-label">Importe un archivo solo si es necesario</label>
+                         <input class="form-control form-control-lg" style="font-size: 100%;" id="formFileLg" type="file">
+                    </div>
+                       
+                    <button type="submit" class="enviar btn btn-primary elt">Enviar</button>
+                    <button type="reset" class="enviar btn btn-secondary elt">Reiniciar</button>
+               </form>
+          </div>
+     </div>
+     <br>
+     </div>
+     </div>
+
+     <script src="../js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,155 @@
+.logo { width: 150px; }
+#navegate {
+     margin-bottom: 30px;
+     box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.514);
+}
+#title {
+     margin: 0px 0% 0% 0%;
+     padding-top: 2%;
+     padding-bottom: 5%;
+}
+h1 {
+     font-family: 'Roboto Mono';
+     font-size: 100px;
+     font-weight: bold;
+     color: white;
+     text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.507);
+}
+h2 {
+     font-family: 'Roboto Mono';
+     font-size: 30px;
+     color: white;
+     text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.507);
+}
+#bgvideo {
+     position: fixed;
+     left: 0;
+     top: -12%;
+     width: 100%;
+     height: 120%;
+     object-fit: cover;
+     z-index: -1;
+     visibility: visible;
+}
+#elementsbg {
+     position: fixed;
+     left: 0;
+     top: 0%;
+     width: 100%;
+     height: 120%;
+     object-fit: cover;
+     z-index: -1;
+     visibility: visible;
+}
+#parrafo {
+     font-family: 'Roboto Mono';
+     margin: 0px 3% 0px 3%;
+     border-radius: 6px;
+     background-color: rgba(0, 0, 0, 0.507);
+     padding: 2%;
+     padding-bottom: 1%;
+     color: white;
+}
+#parrafo-elementos {
+     font-family: 'Roboto Mono';
+     margin: 0px 0% 0px 0%;
+     border-radius: 6px;
+     background-color: rgba(0, 0, 0, 0507);
+     padding: 2%;
+     padding-bottom: 1%;
+     color: rgb(255, 255, 255);
+}
+#titleelements {
+     padding: 2% 0 3% 0;
+}
+
+#mondstadt, #inazuma, #liyue {
+     font-family: 'Roboto Mono';
+     margin: 0% 3% 3% 3%;
+     border-radius: 6px;
+     background-color: rgba(0, 0, 0, 0.507);
+     padding: 3%;
+     padding-bottom: 1%;
+     color: rgb(255, 255, 255);
+}
+#audio-rz {
+     width: 70%;
+}
+#elementslogo {
+     width: 260px;
+}
+#galeria {
+     font-family: 'Roboto Mono';
+     margin: 3% 3% 3% 3%;
+     border-radius: 6px;
+     background-color: rgba(0, 0, 0, 0.507);
+     padding: 2%;
+     padding-bottom: 1%;
+     color: rgb(255, 255, 255);
+}
+#galeria.col-lg-4 {
+     margin: 0 !important;
+     padding: 25px;
+}
+#galeria img {
+     width: 80%;
+     height: auto;
+     padding-bottom: 6%;
+     border-radius: 4%;
+}
+.secondcol {
+     width: 77%;
+}
+#button-elements {
+     margin-top: -15px;
+     padding: 10px;
+     margin-bottom: 10%;
+}
+.elt, .elt:focus {
+     background-color: #9D0DFD;
+     border-color: #9D0DFD;
+}
+.elt:hover {
+     background-color: #8609da;
+     border-color: #8609da;
+}
+#foot {
+     font-family: 'Roboto Mono';
+     margin: 0px 3% 0px 3%;
+     border-radius: 6px;
+     background-color: rgba(0, 0, 0, 0.507);
+     padding: 2%;
+     padding-bottom: 2%;
+     color: white;
+}
+#cont-parrafo {
+     font-family: 'Roboto Mono';
+     margin: 0 0 0 0%;
+     border-radius: 6px;
+     background-color: rgba(0, 0, 0, 0.507);
+     padding: 2%;
+     transition: all 300ms;
+}
+#downloadicon {
+     color: white;
+}
+#downloadicon:hover {
+     color: rgb(160, 160, 160);
+     transform: scale(1.2);
+}
+.enviar {
+     margin-top: 20px;
+     padding: 2% 5% 2% 5%;
+     border-radius: 25px;
+     transition: all 300ms;
+}
+.enviar:hover {
+     transform: scale(1.1);
+}
+.contacto {
+     margin: 2% 0 0 0;
+     padding:0;
+}
+[alt='www.000webhost.com'] {
+     display: none;
+}
